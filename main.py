@@ -75,20 +75,18 @@ def launch_app(cmd):
 
 
 def handle(item):
-    print("handle() called with item", item)
-    match item.command:
-        case "launch-python3":
-            launch_app("python3")
-        case "launch-quizapp":
-            pass
-        case "launch-irc":
-            launch_app("weechat")
-        case "launch-octave":
-            launch_app("octave")
-        case "launch-music":
-            launch_app(["kew", "all"])
-        case "exit":
-            exit(0)
+    if item.command == "launch-python3":
+        launch_app("python3")
+    elif item.command == "launch-quizapp":
+        pass
+    elif item.command == "launch-irc":
+        launch_app("ircii")
+    elif item.command == "launch-octave":
+        launch_app("octave")
+    elif item.command == "launch-music":
+        launch_app(["kew", "all"])
+    elif item.command == "exit":
+        exit(0)
 
 
 def clamp(val, min, max):
