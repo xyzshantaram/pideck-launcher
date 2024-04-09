@@ -4,7 +4,7 @@ import subprocess
 from tkinter import Frame
 
 root = ttk.Window(size=(480, 320))
-root.style.configure(".", font=("Liberation Mono", 24))
+root.style.configure(".", font=("Liberation Mono", 20))
 
 btn_frame = ttk.Frame(root)
 
