@@ -2,6 +2,8 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import INFO, OUTLINE
 import subprocess
 from tkinter import Frame
+from usernames import generate_username
+import os
 
 root = ttk.Window(size=(480, 320))
 root.style.configure(".", font=("Liberation Mono", 20))
@@ -80,11 +82,27 @@ def handle(item):
     elif item.command == "launch-quizapp":
         pass
     elif item.command == "launch-irc":
-        launch_app("ircii")
+        launch_app(
+            [
+                "irc",
+                "-F",
+                "-c",
+                "#pideck",
+                generate_username(),
+                "irc.irchighway.net",
+                "-q",
+                "-irc",
+            ]
+        )
     elif item.command == "launch-octave":
         launch_app("octave")
     elif item.command == "launch-music":
-        launch_app(["kew", "all"])
+        launch_app(
+            [
+                "python3",
+                os.path.join(os.path.dirname(os.path.realpath(__file__)), "music.py"),
+            ]
+        )
     elif item.command == "exit":
         exit(0)
 
