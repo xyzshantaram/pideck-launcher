@@ -80,7 +80,12 @@ def handle(item):
     if item.command == "launch-python3":
         launch_app("python3")
     elif item.command == "launch-quizapp":
-        pass
+        launch_app(
+            [
+                "python3",
+                os.path.join(os.path.dirname(os.path.realpath(__file__)), "quiz.py"),
+            ]
+        )
     elif item.command == "launch-irc":
         launch_app(
             [

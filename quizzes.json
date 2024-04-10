@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Science quiz 04/01",
+    "questions": [
+      {
+        "body": "What is the chemical symbol for water?",
+        "answer": "A",
+        "options": ["H2O", "CO2", "O2", "H2SO4"]
+      },
+      {
+        "body": "What planet is known as the Red Planet?",
+        "answer": "B",
+        "options": ["Mars", "Venus", "Jupiter", "Saturn"]
+      },
+      {
+        "body": "What is the primary function of the lungs?",
+        "answer": "C",
+        "options": ["Oxygenation", "Digestion", "Circulation", "Excretion"]
+      }
+    ]
+  },
+  {
+    "name": "Math quiz 03/27",
+    "questions": [
+      {
+        "body": "What is the value of x in the equation 2x + 5 = 15?",
+        "answer": "B",
+        "options": ["2.0", "5.0", "6.5", "10.0"]
+      },
+      {
+        "body": "Solve for y: 3y - 7 = 20",
+        "answer": "D",
+        "options": ["4", "5", "6", "9"]
+      },
+      {
+        "body": "If a + b = 15 and a - b = 5, what is the value of a?",
+        "answer": "C",
+        "options": ["5", "7.5", "10", "12.5"]
+      },
+      {
+        "body": "What is the solution to the equation 4x^2 - 9 = 0?",
+        "answer": "A",
+        "options": ["x = ±3/2", "x = ±2", "x = ±3", "x = ±4"]
+      },
+      {
+        "body": "If 2x + 3 = 7, what is the value of x?",
+        "answer": "B",
+        "options": ["1", "2", "3", "4"]
+      }
+    ]
+  },
+  {
+    "name": "Social Studies quiz 03/14",
+    "questions": [
+      {
+        "body": "Who was the first Prime Minister of India?",
+        "answer": "B",
+        "options": [
+          "Mahatma Gandhi",
+          "Jawaharlal Nehru",
+          "Sardar Vallabhbhai Patel",
+          "Indira Gandhi"
+        ]
+      },
+      {
+        "body": "The Indian independence movement was led by which political party?",
+        "answer": "A",
+        "options": [
+          "Indian National Congress",
+          "Bharatiya Janata Party",
+          "Communist Party of India",
+          "Bahujan Samaj Party"
+        ]
+      },
+      {
+        "body": "Where is the famous Ajanta Caves located in India?",
+        "answer": "D",
+        "options": [
+          "Maharashtra",
+          "Karnataka",
+          "Uttar Pradesh",
+          "Madhya Pradesh"
+        ]
+      },
+      {
+        "body": "Who wrote the Indian national song 'Vande Mataram'?",
+        "answer": "C",
+        "options": [
+          "Mahatma Gandhi",
+          "Rabindranath Tagore",
+          "Bankim Chandra Chattopadhyay",
+          "Subhas Chandra Bose"
+        ]
+      }
+    ]
+  }
+]
