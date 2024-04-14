@@ -4,6 +4,7 @@ import requests
 import json
 import random
 import time
+import os
 
 
 class ApiClient:
@@ -54,7 +55,12 @@ print(f"Welcome, {name}!")
 time.sleep(random.random())
 
 print("Your available quizzes:")
-quizzes = json.loads(open("quizzes.json").read())
+
+quizzes = json.loads(
+    open(
+        os.path.join(os.path.dirname(os.path.realpath(__file__)), "quizzes.json")
+    ).read()
+)
 
 for idx, itm in enumerate(quizzes):
     print(idx, itm["name"])
