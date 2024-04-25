@@ -3,18 +3,18 @@
     "name": "Science quiz 04/01",
     "questions": [
       {
-        "body": "What is the chemical symbol for water?",
+        "body": "What is the chemical formula for water?",
         "answer": "A",
         "options": ["H2O", "CO2", "O2", "H2SO4"]
       },
       {
-        "body": "What planet is known as the Red Planet?",
+        "body": "Which planet is known as the Red Planet?",
         "answer": "B",
         "options": ["Mars", "Venus", "Jupiter", "Saturn"]
       },
       {
         "body": "What is the primary function of the lungs?",
-        "answer": "C",
+        "answer": "A",
         "options": ["Oxygenation", "Digestion", "Circulation", "Excretion"]
       }
     ]
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "body": "The Indian independence movement was led by which political party?",
+        "body": "Which political party led the Indian independence movement?",
         "answer": "A",
         "options": [
           "Indian National Congress",
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "body": "Where is the famous Ajanta Caves located in India?",
+        "body": "Where are the famous Ajanta Caves located in India?",
         "answer": "D",
         "options": [
           "Maharashtra",
