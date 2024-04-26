@@ -73,3 +73,4 @@ elif 41 <= perc <= 70:
 
 
 print(f"You scored {score}/{total}. {remark}")
+input()
